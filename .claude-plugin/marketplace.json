@@ -43,6 +43,11 @@
       "description": "Launch and adapt Astro documentation sites with semantic vector search, local/Turso indexing, and deployment checks."
     },
     {
+      "name": "logan-logger",
+      "source": "./plugins/logan-logger",
+      "description": "Integration workflows for logan-logger across Node.js, browser, Deno, Bun, Next.js, and optional Winston transports."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."
