@@ -33,6 +33,11 @@
       "description": "Rust crate maintenance workflows for cargo-upkeep: dependency review, RustSec audits, quality scoring, and unsafe-code analysis."
     },
     {
+      "name": "repjan",
+      "source": "./plugins/repjan",
+      "description": "Safe GitHub repository cleanup workflows for repjan: audit repos, review archive candidates, export evidence, and archive carefully."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."

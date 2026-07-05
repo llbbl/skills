@@ -18,6 +18,7 @@ Then install a plugin from the marketplace:
 /plugin install esm@llbbl-skills
 /plugin install uncov@llbbl-skills
 /plugin install upkeep-rs@llbbl-skills
+/plugin install repjan@llbbl-skills
 ```
 
 ## Plugins
@@ -49,6 +50,12 @@ Skills for [cargo-upkeep](https://github.com/llbbl/upkeep-rs), the Rust project 
 
 - `/upkeep-rs:maintain` - install and use `cargo-upkeep` to audit dependencies, review outdated crates, score project health, inspect dependency trees, and plan Rust maintenance work
 
+### `repjan`
+
+Skills for [repjan](https://github.com/llbbl/repjan), the GitHub repository cleanup TUI.
+
+- `/repjan:clean-repos` - audit GitHub repositories, review archive candidates, export marked repos, and safely archive or unarchive repos
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -77,6 +84,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       maintain/
+        SKILL.md
+  repjan/
+    .claude-plugin/plugin.json
+    skills/
+      clean-repos/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json
