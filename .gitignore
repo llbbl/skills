@@ -9,5 +9,9 @@ _/
 .cursor/
 .opencode/
 
+# Local agent context
+CLAUDE.md
+claude.md
+
 # macOS
 .DS_Store
