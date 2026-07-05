@@ -17,6 +17,7 @@ Then install a plugin from the marketplace:
 /plugin install upkeep@llbbl-skills
 /plugin install esm@llbbl-skills
 /plugin install uncov@llbbl-skills
+/plugin install upkeep-rs@llbbl-skills
 ```
 
 ## Plugins
@@ -42,6 +43,12 @@ Skills for [uncov](https://github.com/llbbl/uncov), the low-coverage reporter fo
 
 - `/uncov:improve-coverage` - install uncov, verify coverage setup, rank low-coverage files, and turn the report into a practical testing plan
 
+### `upkeep-rs`
+
+Skills for [cargo-upkeep](https://github.com/llbbl/upkeep-rs), the Rust project maintenance CLI.
+
+- `/upkeep-rs:maintain` - install and use `cargo-upkeep` to audit dependencies, review outdated crates, score project health, inspect dependency trees, and plan Rust maintenance work
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -65,6 +72,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       improve-coverage/
+        SKILL.md
+  upkeep-rs/
+    .claude-plugin/plugin.json
+    skills/
+      maintain/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json

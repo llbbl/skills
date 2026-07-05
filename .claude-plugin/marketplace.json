@@ -28,6 +28,11 @@
       "description": "Adoption and coverage-improvement workflows for uncov, the low-coverage reporter for Vitest/Istanbul output."
     },
     {
+      "name": "upkeep-rs",
+      "source": "./plugins/upkeep-rs",
+      "description": "Rust crate maintenance workflows for cargo-upkeep: dependency review, RustSec audits, quality scoring, and unsafe-code analysis."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."
