@@ -1,0 +1,21 @@
+{
+  "name": "logan-logger",
+  "description": "Claude Code skills for integrating logan-logger, a universal TypeScript logger for Node.js, browser, Deno, Bun, and Next.js projects.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/logan-logger-ts",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "MIT",
+  "keywords": [
+    "logging",
+    "typescript",
+    "node",
+    "browser",
+    "deno",
+    "bun",
+    "nextjs"
+  ]
+}

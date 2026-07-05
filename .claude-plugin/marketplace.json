@@ -10,6 +10,59 @@
   },
   "plugins": [
     {
+      "name": "upkeep",
+      "source": {
+        "source": "github",
+        "repo": "llbbl/upkeep"
+      },
+      "description": "Security audits, dependency upgrades, and quality scoring for JS/TS repos. Bundles the /upkeep:audit, /upkeep:deps, and /upkeep:quality skills."
+    },
+    {
+      "name": "esm",
+      "source": "./plugins/esm",
+      "description": "Development workflows for llbbl/esm and integration guidance for adopting the PHP enum-state-machine library."
+    },
+    {
+      "name": "uncov",
+      "source": "./plugins/uncov",
+      "description": "Adoption and coverage-improvement workflows for uncov, the low-coverage reporter for Vitest/Istanbul output."
+    },
+    {
+      "name": "upkeep-rs",
+      "source": "./plugins/upkeep-rs",
+      "description": "Rust crate maintenance workflows for cargo-upkeep: dependency review, RustSec audits, quality scoring, and unsafe-code analysis."
+    },
+    {
+      "name": "repjan",
+      "source": "./plugins/repjan",
+      "description": "Safe GitHub repository cleanup workflows for repjan: audit repos, review archive candidates, export evidence, and archive carefully."
+    },
+    {
+      "name": "semantic-docs",
+      "source": "./plugins/semantic-docs",
+      "description": "Launch and adapt Astro documentation sites with semantic vector search, local/Turso indexing, and deployment checks."
+    },
+    {
+      "name": "logan-logger",
+      "source": "./plugins/logan-logger",
+      "description": "Integration workflows for logan-logger across Node.js, browser, Deno, Bun, Next.js, and optional Winston transports."
+    },
+    {
+      "name": "pkglock",
+      "source": "./plugins/pkglock",
+      "description": "Lockfile hygiene workflows for switching package-lock.json registry URLs and preventing local npm registry URLs in commits."
+    },
+    {
+      "name": "dotfiles-manager",
+      "source": "./plugins/dotfiles-manager",
+      "description": "Safe dotfile management workflows for dfm: initialize backups, track files, avoid secrets, sync, and review AI suggestions."
+    },
+    {
+      "name": "grepwrite",
+      "source": "./plugins/grepwrite",
+      "description": "Safe code search and transactional rewrite workflows for grepwrite: preview, apply with snapshots, and undo."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."

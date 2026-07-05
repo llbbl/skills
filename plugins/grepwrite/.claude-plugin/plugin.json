@@ -1,0 +1,20 @@
+{
+  "name": "grepwrite",
+  "description": "Claude Code skills for using grepwrite to find code, preview rewrites, apply transactional edits, and undo safely.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/grepwrite",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "MIT",
+  "keywords": [
+    "search",
+    "rewrite",
+    "ripgrep",
+    "ast-grep",
+    "refactor",
+    "rust"
+  ]
+}

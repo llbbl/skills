@@ -1,0 +1,20 @@
+{
+  "name": "pkglock",
+  "description": "Claude Code skills for using pkglock to rewrite package-lock.json registry URLs and prevent local npm registry URLs from landing in commits.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/pkglock-rust",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "package-lock",
+    "registry",
+    "verdaccio",
+    "rust",
+    "cli"
+  ]
+}
