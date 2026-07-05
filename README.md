@@ -21,6 +21,7 @@ Then install a plugin from the marketplace:
 /plugin install repjan@llbbl-skills
 /plugin install semantic-docs@llbbl-skills
 /plugin install logan-logger@llbbl-skills
+/plugin install pkglock@llbbl-skills
 ```
 
 ## Plugins
@@ -70,6 +71,12 @@ Skills for [logan-logger](https://github.com/llbbl/logan-logger-ts), the univers
 
 - `/logan-logger:integrate` - add runtime-appropriate structured logging to Node.js, browser, Deno, Bun, and Next.js projects
 
+### `pkglock`
+
+Skills for [pkglock](https://github.com/llbbl/pkglock-rust), the package-lock registry URL rewriting CLI.
+
+- `/pkglock:protect-lockfile` - switch `package-lock.json` between local npm registries and the public registry, and install safeguards against committing local URLs
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -113,6 +120,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       integrate/
+        SKILL.md
+  pkglock/
+    .claude-plugin/plugin.json
+    skills/
+      protect-lockfile/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json

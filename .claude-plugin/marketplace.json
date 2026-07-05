@@ -48,6 +48,11 @@
       "description": "Integration workflows for logan-logger across Node.js, browser, Deno, Bun, Next.js, and optional Winston transports."
     },
     {
+      "name": "pkglock",
+      "source": "./plugins/pkglock",
+      "description": "Lockfile hygiene workflows for switching package-lock.json registry URLs and preventing local npm registry URLs in commits."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."
