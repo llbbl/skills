@@ -1,2 +1,13 @@
-_
+# Local scratch workspace
+_/
+
+# Local AI/editor tool state
+.claude/
+.gemini/
+.antigravity/
+.codex/
+.cursor/
+.opencode/
+
+# macOS
 .DS_Store

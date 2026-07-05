@@ -1,0 +1,20 @@
+{
+  "name": "uncov",
+  "description": "Claude Code skills for adopting uncov and improving Vitest/Istanbul coverage in JavaScript and TypeScript projects.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/uncov",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "MIT",
+  "keywords": [
+    "coverage",
+    "vitest",
+    "istanbul",
+    "testing",
+    "javascript",
+    "typescript"
+  ]
+}
