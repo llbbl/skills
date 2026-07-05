@@ -58,6 +58,11 @@
       "description": "Safe dotfile management workflows for dfm: initialize backups, track files, avoid secrets, sync, and review AI suggestions."
     },
     {
+      "name": "grepwrite",
+      "source": "./plugins/grepwrite",
+      "description": "Safe code search and transactional rewrite workflows for grepwrite: preview, apply with snapshots, and undo."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."

@@ -23,6 +23,7 @@ Then install a plugin from the marketplace:
 /plugin install logan-logger@llbbl-skills
 /plugin install pkglock@llbbl-skills
 /plugin install dotfiles-manager@llbbl-skills
+/plugin install grepwrite@llbbl-skills
 ```
 
 ## Plugins
@@ -84,6 +85,12 @@ Skills for [dotfiles-manager](https://github.com/llbbl/dotfiles-manager), the `d
 
 - `/dotfiles-manager:manage-dotfiles` - initialize private backups, track dotfiles safely, avoid secrets, sync state, and review AI-suggested improvements
 
+### `grepwrite`
+
+Skills for [grepwrite](https://github.com/llbbl/grepwrite), the safe transactional search and rewrite CLI.
+
+- `/grepwrite:rewrite-code` - find matches, preview rewrites, apply transactional edits with snapshots, and undo safely
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -137,6 +144,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       manage-dotfiles/
+        SKILL.md
+  grepwrite/
+    .claude-plugin/plugin.json
+    skills/
+      rewrite-code/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json
