@@ -22,6 +22,7 @@ Then install a plugin from the marketplace:
 /plugin install semantic-docs@llbbl-skills
 /plugin install logan-logger@llbbl-skills
 /plugin install pkglock@llbbl-skills
+/plugin install dotfiles-manager@llbbl-skills
 ```
 
 ## Plugins
@@ -77,6 +78,12 @@ Skills for [pkglock](https://github.com/llbbl/pkglock-rust), the package-lock re
 
 - `/pkglock:protect-lockfile` - switch `package-lock.json` between local npm registries and the public registry, and install safeguards against committing local URLs
 
+### `dotfiles-manager`
+
+Skills for [dotfiles-manager](https://github.com/llbbl/dotfiles-manager), the `dfm` dotfile backup and improvement CLI.
+
+- `/dotfiles-manager:manage-dotfiles` - initialize private backups, track dotfiles safely, avoid secrets, sync state, and review AI-suggested improvements
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -125,6 +132,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       protect-lockfile/
+        SKILL.md
+  dotfiles-manager/
+    .claude-plugin/plugin.json
+    skills/
+      manage-dotfiles/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json

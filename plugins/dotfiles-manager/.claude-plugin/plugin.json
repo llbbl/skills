@@ -1,0 +1,20 @@
+{
+  "name": "dotfiles-manager",
+  "description": "Claude Code skills for using dfm to safely track, back up, audit, and improve dotfiles with reviewable AI suggestions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/dotfiles-manager",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "FSL-1.1-MIT",
+  "keywords": [
+    "dotfiles",
+    "backup",
+    "secrets",
+    "git",
+    "go",
+    "cli"
+  ]
+}

@@ -53,6 +53,11 @@
       "description": "Lockfile hygiene workflows for switching package-lock.json registry URLs and preventing local npm registry URLs in commits."
     },
     {
+      "name": "dotfiles-manager",
+      "source": "./plugins/dotfiles-manager",
+      "description": "Safe dotfile management workflows for dfm: initialize backups, track files, avoid secrets, sync, and review AI suggestions."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."
