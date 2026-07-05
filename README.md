@@ -19,6 +19,7 @@ Then install a plugin from the marketplace:
 /plugin install uncov@llbbl-skills
 /plugin install upkeep-rs@llbbl-skills
 /plugin install repjan@llbbl-skills
+/plugin install semantic-docs@llbbl-skills
 ```
 
 ## Plugins
@@ -56,6 +57,12 @@ Skills for [repjan](https://github.com/llbbl/repjan), the GitHub repository clea
 
 - `/repjan:clean-repos` - audit GitHub repositories, review archive candidates, export marked repos, and safely archive or unarchive repos
 
+### `semantic-docs`
+
+Skills for [semantic-docs](https://github.com/llbbl/semantic-docs), the Astro documentation theme with semantic vector search.
+
+- `/semantic-docs:launch-docs` - launch or adapt a searchable documentation site with Astro content, local/Turso indexing, and deployment checks
+
 ### `lsm`
 
 Skills for [lsm](https://github.com/llbbl/lsm), the local secrets manager.
@@ -89,6 +96,11 @@ plugins/
     .claude-plugin/plugin.json
     skills/
       clean-repos/
+        SKILL.md
+  semantic-docs/
+    .claude-plugin/plugin.json
+    skills/
+      launch-docs/
         SKILL.md
   lsm/
     .claude-plugin/plugin.json

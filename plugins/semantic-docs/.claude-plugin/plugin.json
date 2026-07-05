@@ -1,0 +1,20 @@
+{
+  "name": "semantic-docs",
+  "description": "Claude Code skills for launching Astro documentation sites with semantic vector search using semantic-docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Logan Lindquist Land",
+    "email": "logan.lindquist@gmail.com"
+  },
+  "homepage": "https://github.com/llbbl/semantic-docs",
+  "repository": "https://github.com/llbbl/skills",
+  "license": "MIT",
+  "keywords": [
+    "astro",
+    "documentation",
+    "semantic-search",
+    "vector-search",
+    "turso",
+    "theme"
+  ]
+}

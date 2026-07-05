@@ -38,6 +38,11 @@
       "description": "Safe GitHub repository cleanup workflows for repjan: audit repos, review archive candidates, export evidence, and archive carefully."
     },
     {
+      "name": "semantic-docs",
+      "source": "./plugins/semantic-docs",
+      "description": "Launch and adapt Astro documentation sites with semantic vector search, local/Turso indexing, and deployment checks."
+    },
+    {
       "name": "lsm",
       "source": "./plugins/lsm",
       "description": "Forensics and workflow skills for lsm, the local secrets manager."
